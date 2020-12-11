@@ -2,8 +2,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* color: rgb(58, 56, 56); */
+    
 }
 
 body {
+    margin: 5px;
     font-family: "Poppins";
+    background-color: rgba(214, 214, 214, 0.808);
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 30px;
+    border: 2px solid black;
+    height: 100vh
+    
+}
+
+.hero .headings {
+    font-size: 40px;
+    text-decoration: underline;
+    
+    
+}
+
+.hero {
+    display: flex;
+    /* justify-content: space-between; */
+    transition: 0.2s;
+    
+}
+
+.hobbies{
+    transition: 0.3s;
+}
+.experience{
+    transition: 0.3s;
+}
+.skills{
+    transition: 0.3s;
+}
+
+.hero .dp {
+    padding-top: 10px;
+    
+}
+
+.hero .about {
+    padding-left: 40px;
+}
+
+ul {
+    list-style: inside;
+}
+
+.hero:hover {
+    background-color: cornflowerblue;
+    transform: scale(1.1);
+    color: cornsilk;
+
+}
+
+.hobbies:hover {
+    background-color: cornflowerblue;
+    transform: scale(1.2);
+    color: cornsilk;
+    padding-left: 20%;
+
+}
+
+.experience:hover {
+    background-color: cornflowerblue;
+    transform: scale(1.1);
+    color: cornsilk;
+    padding-left: 20%;
+
+}
+
+.skills:hover {
+    background-color: cornflowerblue;
+    transform: scale(1.1);
+    color: cornsilk;
+    padding-left: 20%;
+
 }
